@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>RequestCanonicalizer.Cli</AssemblyName>
+    <RootNamespace>RequestCanonicalizer.Cli</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/RequestCanonicalizer/RequestCanonicalizer.csproj" />
+  </ItemGroup>
+</Project>

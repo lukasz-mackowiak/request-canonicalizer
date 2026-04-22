@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://example.test/notes?b=2&a=1",
+    "headers": {
+      "Content-Type": "text/plain",
+      "X-Trace": "  abc   123  "
+    },
+    "body": "hello world\n"
+  },
+  "options": {
+    "signedHeaders": ["x-trace", "content-type", "x-missing"]
+  }
+}

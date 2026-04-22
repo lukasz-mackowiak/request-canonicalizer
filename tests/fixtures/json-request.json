@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "post",
+    "url": "/orders?z=9&a=2&a=1",
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Custom": [" beta ", "alpha"]
+    },
+    "body": {
+      "z": 1,
+      "a": {
+        "d": 4,
+        "c": 3
+      }
+    }
+  },
+  "options": {
+    "signedHeaders": ["x-custom", "content-type"],
+    "baseUrl": "https://example.test"
+  }
+}

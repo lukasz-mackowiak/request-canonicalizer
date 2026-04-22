@@ -1,0 +1,20 @@
+{
+  "name": "request-canonicalizer",
+  "version": "0.1.0",
+  "description": "Reusable request canonicalization library for TypeScript runtimes.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "test",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "test": "node --test --experimental-strip-types"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
